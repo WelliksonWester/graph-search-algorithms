@@ -11,7 +11,7 @@
   Implementação e análise comparativa de algoritmos clássicos de busca em grafos aplicados à resolução de rotas rodoviárias em Mato Grosso.
 </p>
 
-[Sobre](#-sobre) • [Modelagem](#-modelagem-do-grafo) • [Algoritmos](#algoritmos) • [Comparativo](#-comparativo-de-execução) • [Como Usar](#-como-executar)
+[Sobre](#-sobre) • [Modelagem](#-modelagem-do-grafo) • [Algoritmos](#-algoritmos) • [Comparativo](#-comparativo-de-execução) • [Como Usar](#-como-executar)
 
 </div>
 
@@ -51,8 +51,7 @@ Para o algoritmo $A^*$, adota-se a estimativa de distância em linha reta até o
 
 ---
 
-<a id="algoritmos"></a>
-## 🧠 Algoritmos
+## ⚙️ Algoritmos
 
 ### 1. Busca em Largura (BFS)
 - **Estratégia:** Explora sistematicamente os vértices nível por nível utilizando uma fila FIFO (`deque`).
@@ -81,23 +80,19 @@ Origem: **VG (Várzea Grande)** ➔ Destino: **NOB (Nobres)**
 ```bash
 largura: ['VG', 'CBA', 'ROS', 'NOB'] 200 km, 4 expandidos
 --------------------
-A*: ['VG', 'JAN', 'ROS', 'NOB'] 185 km, 3 expandidos````
+A*: ['VG', 'JAN', 'ROS', 'NOB'] 185 km, 3 expandidos
 
+💻 Como Executar
+Pré-requisitos
+Python 3.8+ instalado (sem bibliotecas externas necessárias).
 
-<a id="como-usar"></a>
-## 💻 Como Executar
-
-### Pré-requisitos
-* Python 3.8+ instalado (sem bibliotecas externas necessárias).
-```bash
-### Passo a passo
+Passo a passo
 
 # Clone o repositório
-git clone https://github.com/WelliksonWester/graph-search-algorithms.git
+git clone [https://github.com/WelliksonWester/graph-search-algorithms.git](https://github.com/WelliksonWester/graph-search-algorithms.git)
 
 # Acesse o diretório
 cd graph-search-algorithms
 
 # Execute o script
 python busca.py
-```

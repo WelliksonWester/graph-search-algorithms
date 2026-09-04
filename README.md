@@ -81,13 +81,14 @@ Origem: **VG (Várzea Grande)** ➔ Destino: **NOB (Nobres)**
 largura: ['VG', 'CBA', 'ROS', 'NOB'] 200 km, 4 expandidos
 --------------------
 A*: ['VG', 'JAN', 'ROS', 'NOB'] 185 km, 3 expandidos
+```
 
-💻 Como Executar
+## 💻 Como Executar
 Pré-requisitos
 Python 3.8+ instalado (sem bibliotecas externas necessárias).
 
-Passo a passo
-
+###Passo a passo
+```bash
 # Clone o repositório
 git clone [https://github.com/WelliksonWester/graph-search-algorithms.git](https://github.com/WelliksonWester/graph-search-algorithms.git)
 
@@ -96,3 +97,4 @@ cd graph-search-algorithms
 
 # Execute o script
 python busca.py
+```
